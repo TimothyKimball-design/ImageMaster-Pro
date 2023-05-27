@@ -19,8 +19,7 @@ public class BasicComputerVision {
             String imagePath = "insertimage.jpg";
 
            
-            BufferedImage image = ImageIO.read(new File(imagePath)); // Provide the path to your input image
-
+            BufferedImage image = ImageIO.read(new File(imagePath)); 
            
             BufferedImage grayImage = convertToGrayscale(image);
 
